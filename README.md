@@ -14,21 +14,12 @@ The dataset was obtained thanks GroupLens. GroupLens Research has collected and 
 
 ### Objectives
 
-Create a recommendation system based in Content Based Filtering, this program is well explained in the notebook RecSys-Content-Based-movies.ipynb.
+Create a recommendation system made with Content Based Filtering, this program is well explained in the notebook RecSys-Content-Based-movies.ipynb.
 
 Also was created a recommendation system based in Collaborative Filtering, this program is well explained in the notebook RecSys-Collaborative-Filtering-movies.ipynb.
+
+The Recommendation Systems made with Contain Based Filtering works by comparing between data that the user has seen before. And the Recommendation Systems made with  Collaborative Filtering works by comparing between data of other users with similar likes.
 
 These systems have become ubiquitous can be commonly seen in online stores, movies databases and job finders. In these notebooks, we will explore recommendation systems based on Collaborative Filtering and Content Filtering. I implemented simple version using Python and the Pandas library.
 
 All the process was deeply described on the notebooks: Acquiring Data, Preprocessing, Filtering and a lists of Advantages and Disadvantages of each one of the Recommendation Systems. The results and Conclusions are inside too. 
-
-
-
-
-
-
-
-
-
-
-
