@@ -1,7 +1,5 @@
 # Recommendation_Systems
 
-# Houses_Price_Prediction
-
 ![image](https://user-images.githubusercontent.com/43154438/119274848-98bfc700-bbd7-11eb-87ad-7c30d166d22b.png)
 
 #### Note: If you can't see the notebook here, prove clicking this link: 
