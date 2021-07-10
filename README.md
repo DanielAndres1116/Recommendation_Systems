@@ -2,8 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/43154438/119274848-98bfc700-bbd7-11eb-87ad-7c30d166d22b.png)
 
-#### Note: If you can't see the notebook here, prove clicking this link: 
-
 ### Dataset Description
 
 The dataset used contains information taken from the users of an application where the people can watch movies. And we can Download it from this Link: https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%205/data/moviedataset.zip
