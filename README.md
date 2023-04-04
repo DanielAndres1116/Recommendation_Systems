@@ -1,14 +1,15 @@
-# Recommendation_Systems
+# 1. Recommendations Systems: showing to the users what they want
 
-![image](https://user-images.githubusercontent.com/43154438/119274848-98bfc700-bbd7-11eb-87ad-7c30d166d22b.png)
+A recommendation system is a tool that helps to predict the preferences or ratings a user would give to a product or item. The purpose of a recommendation system is to provide users with personalized suggestions, based on their past interactions and behavior.
 
-### Dataset Description
+There are several advantages to using recommendation systems, including:
 
-The dataset used contains information taken from the users of an application where the people can watch movies. And we can Download it from this Link: https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%205/data/moviedataset.zip
-
-Due it is a long dataset, I can't upload it to the GitHub Page. So please click the previous link to download it.
-
-The dataset was obtained thanks GroupLens. GroupLens Research has collected and made available rating data sets from the MovieLens web site (https://movielens.org). The data sets were collected over various periods of time, depending on the size of the set. It is important know that for use these data sets we have to review their README files for the usage licences and other details. 
+•	Increased engagement: By providing users with personalized recommendations, you can increase their engagement with your products or services. This can lead to increased customer satisfaction and loyalty.
+•	Improved user experience: Recommendation systems can help to streamline the user experience by reducing the time and effort required to find relevant products or content.
+•	Increased sales: By providing users with relevant recommendations, you can increase the likelihood that they will make a purchase. This can result in increased sales and revenue for your business.
+•	Improved customer insights: Recommendation systems can help to provide valuable insights into customer behavior and preferences. This information can be used to inform future product development and marketing strategies.
+In conclusion, recommendation systems offer a range of benefits to businesses and organizations, by helping to increase engagement, improve the user experience, increase sales, and provide valuable customer insights.
+There are different types of recommender systems, and they are:
 
 ### Objectives
 
