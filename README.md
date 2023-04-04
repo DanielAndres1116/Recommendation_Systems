@@ -25,3 +25,13 @@ For example, a content-based recommendation system for a movie streaming service
 ![image](https://user-images.githubusercontent.com/43154438/229680935-7d0f0d06-46a8-4192-9bb9-2124f37340d9.png)
 
 Figure 1: representation of what Content-Based Recommendation Systems consist on.
+
+## 1.2. Collaborative Filtering Recommendation Systems
+
+Collaborative filtering recommendation systems use the behavior and preferences of users to make recommendations. These systems analyze the past interactions and ratings of users, such as their movie ratings or product reviews, to make recommendations to other users with similar preferences.
+
+For example, a collaborative filtering recommendation system for a movie streaming service would recommend movies to a user based on the movie ratings and preferences of other users who have similar movie tastes.
+
+![image](https://user-images.githubusercontent.com/43154438/229681039-e90a202e-29b8-459b-b0e2-49b8ca21d724.png)
+
+Figure 2: representation of what Content-Based Recommendation Systems consist on.
