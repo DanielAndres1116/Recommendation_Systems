@@ -62,3 +62,14 @@ To accomplish this, the code performs the following steps:
 6.	To recommend movies, the code multiplies the genre weights of each movie with the genre profile of the user and takes a weighted average to obtain a recommendation score for each movie.
 7.	Finally, the code recommends the top N movies with the highest recommendation scores.
 The content-based recommendation system uses a mathematical approach to recommend movies based on their genre characteristics. The system calculates the similarity between the input movies and all other movies in the database and recommends the most similar ones.
+
+## 1.5. Explanation of the Colaborative Filtering Recommendation System programming code
+
+The code is an implementation of a Collaborative Filtering recommendation system. Collaborative filtering is a method of making recommendations based on the preferences and behavior of similar users.
+
+1.	The code starts by importing the required libraries and reading two data sets, ‘movies.csv’ and ‘ratings.csv’. These data sets contain information about movies and the ratings given by users to those movies, respectively. Then it manipulates the data sets to prepare them for the recommendation process.
+2.	After preparing the data sets, the code takes some inputs from the user in the form of movie titles and their ratings. Then it filters the data sets to find the corresponding movie IDs and creates a new data frame called ‘inputMovies’ for the movies the user has rated.
+3.	Next, the code creates a subset of the ratings data frame called ‘userSubset’ containing only the users who have rated the movies that the user has rated. The code groups these users based on their user IDs and sorts the groups based on movie IDs.
+4.	After that, the code calculates the Pearson Correlation between the input user and each user in the ‘userSubset’ group. Pearson Correlation is a measure of the linear correlation between two variables. In this case, it measures the similarity between the ratings given by the input user and other users.
+5.	Finally, the code uses the Pearson Correlation values to recommend movies to the user by selecting the movies with the highest average ratings from users who have a high correlation with the input user.
+The code uses a lot of mathematical and statistical concepts and techniques such as mean, standard deviation, and correlation to make recommendations to the user.
