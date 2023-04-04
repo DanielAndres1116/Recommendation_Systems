@@ -87,6 +87,7 @@ Advantages:
 •	Highly personalized for the user
 
 
+
 Disadvantages:
 
 •	Doesn’t take into account what others think of the item, so low quality item recommendations might happen
@@ -94,6 +95,7 @@ Disadvantages:
 •	Extracting data is not always intuitive
 
 •	Determining what characteristics of the item the user dislikes or likes is not always obvious
+
 
 
 ### Advantages and Disadvantages of Collaborative Filtering
@@ -105,6 +107,7 @@ Advantages:
 •	Doesn’t need to study or extract information from the recommended item
 
 •	Adapts to the user’s interests which might change over time
+
 
 
 Disadvantages:
