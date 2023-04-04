@@ -35,3 +35,30 @@ For example, a collaborative filtering recommendation system for a movie streami
 ![image](https://user-images.githubusercontent.com/43154438/229681039-e90a202e-29b8-459b-b0e2-49b8ca21d724.png)
 
 Figure 2: representation of what Content-Based Recommendation Systems consist on.
+
+## 1.3. Project Description
+
+This project involves the use of a movie ratings dataset obtained from GroupLens Research. The dataset contains information about the movies watched by users of a movie-watching application and can be downloaded from the next link:
+
+https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%205/data/moviedataset.zip
+
+Since the dataset is quite large, it cannot be uploaded neither to this page nor GitHub platform, but interested parties can download it by clicking on the link provided. It’s important to note that before using the dataset, it’s necessary to review the README files to understand the usage licenses and other details.
+
+The data was collected by GroupLens Research and made available through the MovieLens website. The collection periods varied depending on the size of the dataset.
+
+With this dataset, you can perform various analysis and build recommendation systems to help movie enthusiasts discover new films based on their past preferences and movie ratings.
+
+## 1.4. Explanation of the Content Based Recommendation System programming code
+
+The code implements a content-based movie recommendation system. The system takes the input of a user’s rating of a set of movies, and recommends other movies that have similar genre characteristics to the input movies.
+
+To accomplish this, the code performs the following steps:
+
+1.	Loads movie information and user ratings into two pandas dataframes (movies_df and ratings_df).
+2.	Cleans and processes the movie data by extracting the year of release and removing it from the movie title. It also splits the genre information into separate columns.
+3.	The code creates a new dataframe (moviesWithGenres_df) that contains binary information about the presence or absence of each genre in each movie.
+4.	User inputs are stored in the userInput variable, which is then merged with the movie information to obtain the movieIds for the input movies.
+5.	The code creates a genre profile of the user’s preferences by taking a weighted average of the genres of the input movies, where the weight is the user’s rating of the movie.
+6.	To recommend movies, the code multiplies the genre weights of each movie with the genre profile of the user and takes a weighted average to obtain a recommendation score for each movie.
+7.	Finally, the code recommends the top N movies with the highest recommendation scores.
+The content-based recommendation system uses a mathematical approach to recommend movies based on their genre characteristics. The system calculates the similarity between the input movies and all other movies in the database and recommends the most similar ones.
