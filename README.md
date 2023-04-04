@@ -80,7 +80,7 @@ In general, both content-based and collaborative filtering recommendation system
 
 ### Advantages and Disadvantages of Content-Based Filtering
 
-Advantages:
+#### Advantages:
 
 •	Learns user’s preferences
 
@@ -88,7 +88,7 @@ Advantages:
 
 
 
-Disadvantages:
+#### Disadvantages:
 
 •	Doesn’t take into account what others think of the item, so low quality item recommendations might happen
 
@@ -100,7 +100,7 @@ Disadvantages:
 
 ### Advantages and Disadvantages of Collaborative Filtering
 
-Advantages:
+#### Advantages:
 
 •	Takes other user’s ratings into consideration
 
@@ -110,7 +110,7 @@ Advantages:
 
 
 
-Disadvantages:
+#### Disadvantages:
 
 •	Approximation function can be slow
 
