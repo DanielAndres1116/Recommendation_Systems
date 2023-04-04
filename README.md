@@ -22,6 +22,6 @@ Content-based recommendation systems use the attributes or characteristics of it
 
 For example, a content-based recommendation system for a movie streaming service would recommend movies based on the user’s past movie preferences, such as their favorite actors, directors, or genres.
 
-![image](https://user-images.githubusercontent.com/43154438/229680799-49d54e29-0cae-4fdc-a1f8-89a328a5b5b9.png)
+![image](https://user-images.githubusercontent.com/43154438/229680935-7d0f0d06-46a8-4192-9bb9-2124f37340d9.png)
 
 Figure 1: representation of what Content-Based Recommendation Systems consist on.
